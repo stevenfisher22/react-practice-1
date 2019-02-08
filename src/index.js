@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import Counter from './components/Counter';
 
-const element = <h1>Hello World</h1>;
-console.log(element);
-
-// @ 18:42 in the video
-// https://www.youtube.com/watch?v=Ke90Tje7VS0&t=1s
+ReactDOM.render(<Counter />, document.getElementById("root"));
